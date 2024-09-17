@@ -4,9 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+This repo is used for Basic Git Training delivered by IntelliTect
 
 ### How do I get set up? ###
 
@@ -27,3 +25,6 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+## References
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
