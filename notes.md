@@ -7,3 +7,4 @@ Force push
 
 Rebase seems cool, but, it can come at a cost
 
+- git add options: edit, -A, 

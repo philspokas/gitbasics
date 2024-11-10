@@ -26,7 +26,7 @@ git config list --local
 git config list --global
 git config list --system
 git config list -–show-origin
-``
+```
 
 In order to record your identity in commits, Git will have your name and email to be set. Set your username and email.
 Note if you do not specify a location, local will be the default.
@@ -45,12 +45,19 @@ git config set --global user.name phil
 git config set --global user.email phil@intellitect.com
 ```
 
+Set the global default initial branch name:
+```
+git config set --global init.defaultbranch main
+```
+* Use git config to verify where the setting was made (git config list --show-origin)
+
 ## Getting Help
 
 ```
 git help
 git <command> --help 
 git <command> -h
+```
 
 
 
