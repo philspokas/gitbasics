@@ -47,8 +47,16 @@ git status
 git ccommit -m "finsh remove"
 ```
 
+## Restoring files in your repo
+Note that git restore is the preferred method for this over git reset.
 
-
-
+Edit the readme.md and then perform the following"
+```
+git add readme.md
+git status
+git restore --staged readme.md
+git status
+git restore readme.md 
+```
 
 

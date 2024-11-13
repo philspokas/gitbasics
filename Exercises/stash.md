@@ -11,7 +11,7 @@ git status
 git stash list
 ```
 
-Note that the untracked file was not included in the stash
+Note that the untracked file was not included in the stash. the pop command will remove the stash and apply it. We then re-stash including untracked files.
 
 ```
 git stash pop
@@ -19,5 +19,16 @@ git stash push -u
 git status
 git stash
 ```
+
+* To restage files previously staged, use --index on the apply
+* This technique can be used to apply changes to a different branch
+
+To create a branch using the stash, use the branch command:
+```
+git stash branch new-branch-from-stash
+```
+
+
+
 
 
