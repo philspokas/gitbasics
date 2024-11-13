@@ -6,7 +6,6 @@ We'll create some branches and merge the changes.
 ## Basic branching
 Using newrepo create a branch and add a file to it.
 
-
 ## Merge no fast forward
 
 In this exercise we'll create a branch on which to do some work and then merge the changes using a standard merge. In order to represent a good tree, we'll need to diverge the branches
