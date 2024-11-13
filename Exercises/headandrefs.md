@@ -1,8 +1,8 @@
 # Exploring HEAD and refs
 
+In the following exercise we'll review HEAD and refs. we'll use git log commands. Especially helpful is the --oneline 
 
 git log --oneline --decorate --graph --all
-
 
 ## Review refs
 

@@ -1,10 +1,7 @@
 # Explore Git File Stages
 
-
 ## Add files to a repo
-We created a new repo in a previous exercise, now let's add files and commit them
-
-Add and commit a file, checking status in between steps:
+We created a new repo in a previous exercise, now let's add files and commit them. We add and commit a file, checking status in between steps:
 
 ```
 git status
@@ -35,7 +32,6 @@ git rm nope.md
 
 Once you commit the file, git rm will update Stage to delete the file
 
-
 ```
 echo "get rid of this file" >nope.md
 git add .
@@ -47,6 +43,9 @@ git status
 ```
 * a final git commit will commit the change and update the log
 
+```
+git ccommit -m "finsh remove"
+```
 
 
 
