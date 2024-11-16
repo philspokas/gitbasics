@@ -39,6 +39,7 @@ Create a new branch and add some commits
 git status
 git checkout -b evenmorestuff
 echo "#Even more new stuff" > evenmore.md
+***
 git commit -am "even more stuff"
 git status
 echo "add a line" >> evenmore.md
