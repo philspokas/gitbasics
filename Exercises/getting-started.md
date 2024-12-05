@@ -19,7 +19,9 @@ Open Visual Studio Code and verify that Git is installed.
 
 ## Configuring Git
 
-Git options and defaults are configured with the "git config " command. Review local, global and system settings
+Git options and defaults are configured with the ```git config ``` command. Review local, global and system settings. 
+
+<i>Note that the synax of git config changed recently such that the option specifier ```--``` is no longer required in front of the git config command. If you encounter errors when executing the following commands, we recommend upgrading your git version to the latest available for your OS.</i>
 
 ```
 git config list --local
