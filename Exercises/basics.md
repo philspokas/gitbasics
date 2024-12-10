@@ -21,8 +21,8 @@ Review the remote using remote command. Use the --verbose (-v) option to return 
 ```
 git remote --verbose
 ```
-- Note the name "origin" is the default remote
-- Additional remotes can be added 
+ - Note the name "origin" is the default remote
+ - Additional remotes can be added 
 
 
 ## Create a new repo
@@ -37,6 +37,6 @@ git init
 git status
 
 ```
-- Note the readme.md is Untracked
-- Explore .git folder which may be hidden
+ - Note the readme.md is Untracked
+ - Explore .git folder which may be hidden
 
