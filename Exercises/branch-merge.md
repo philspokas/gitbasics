@@ -25,7 +25,7 @@ echo "more readme" >>readme.md
 git commit -am "add to readme"
 git log --oneline --decorate --graph --all
 ```
-Now we're read to merge. the --no-ff will insure the pointer is not fast forwarded recording our merge commit.
+Now we're ready to merge. The --no-ff will insure the pointer is not fast forwarded recording our merge commit.
 ```
 git merge newstuff --no-ff
 git commit -m "include new stuff"
@@ -51,7 +51,9 @@ Switch back to main and add a commit
 git checkout main
 git log --oneline
 echo "adding even more" >> readme.md
-git log --oneline
+```
+Show branches to confirm we are on the main branch and then merge the evenmorestuff branch using sqash
+```
 git branch
 git merge --squash evenmorestuff
 git commit -am "merge evenmorestuff"

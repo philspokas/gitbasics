@@ -16,7 +16,7 @@ echo "more logs" >> log2.log
 git status
 ```
 
-## Force an ignored file to be added adn committed
+## Force an ignored file to be added and committed
 The .gitignore can be overriden during the add using the --force option 
 
 ```
