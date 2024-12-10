@@ -5,9 +5,17 @@ In the following exercise we'll review HEAD and refs. we'll use git log commands
 ```
 git log --oneline --decorate --graph --all
 ```
-Creating an alias makes it much easier to use. The following setting creates an alias command "loga"
+Creating an alias makes it much easier to use. The following setting creates an alias command "loga" on *newer versions of git (~1.47)*
+
 ```
 git config set --global alias.loga "log --oneline --decorate --graph --all"    
+```
+Older versions of git will need to use the --add command as follows:
+```
+git config --add --global alias.loga "log --oneline --decorate --graph --all"
+```
+Either way, you should end up with a new command "loga":
+```
 git loga
 ```
 

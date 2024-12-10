@@ -31,7 +31,7 @@ git remote --verbose
 Create a new folder, add a file, then create a repo and review 
 
 ```
-md newrepo
+mkdir newrepo
 cd newrepo
 echo "# New Repo" >> readme.md
 git init
