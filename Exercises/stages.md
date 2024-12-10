@@ -28,6 +28,7 @@ git add .
 git rm nope.md
 
 ```
+
 * Note that since the file is staged, git rejects the command. Use "-f" to force the removal. 
 
 Once you commit the file, git rm will update Stage to delete the file
@@ -41,17 +42,20 @@ git log
 git rm nope.md
 git status
 ```
+
 * a final git commit will commit the change and update the log
 
 ```
-git ccommit -m "finsh remove"
+git commit -m "finsh remove"
 ```
 
 ## Restoring files in your repo
-Note that git restore is the preferred method for this over git reset.
+Note that git restore is a new command and the preferred method for this over git reset.
 
-Edit the readme.md and then perform the following"
+Edit the readme.md and then perform the following to demonstrate reset
+
 ```
+echo "added to readme " >> readme.md
 git add readme.md
 git status
 git restore --staged readme.md
