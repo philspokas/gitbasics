@@ -7,7 +7,7 @@ git log --oneline --decorate --graph --all
 ```
 Creating an alias makes it much easier to use. The following setting creates an alias command "loga"
 ```
->git config set --global alias.loga "log --oneline --decorate --graph --all"    
+git config set --global alias.loga "log --oneline --decorate --graph --all"    
 git loga
 ```
 
@@ -43,5 +43,6 @@ git checkout <commit hash>
 git tag -m 'going back in time' 'v0.0.1'
 git checkout main
 git loga
+git show-ref
 ```
 
