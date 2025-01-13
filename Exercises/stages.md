@@ -50,7 +50,7 @@ git commit -m "finsh remove"
 ```
 
 ## Restoring files in your repo
-Note that git restore is a new command and the preferred method for this over git reset.
+Note that git restore is a new command and the preferred method over git reset.
 
 Edit the readme.md and then perform the following to demonstrate reset
 

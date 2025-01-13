@@ -28,9 +28,12 @@ git remote --verbose
 
 ## Create a new repo
 
-Create a new folder, add a file, then create a repo and review 
+Create a new folder, add a file, then create a repo and review. Be sure to change directory into a working folder location.
+
+For example ```c:\dev``` or ```$HOME/repos``` or similar.
 
 ```
+cd <working folder>
 mkdir newrepo
 cd newrepo
 echo "# New Repo" >> readme.md
