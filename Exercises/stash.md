@@ -24,9 +24,9 @@ git stash
 * This technique can be used to apply changes to a different branch. Simply switch branches before applying the stash
 * To restage files previously staged, use --index on the apply
 * To create a branch using the stash, use the branch command:
-    ```
-    git stash branch new-branch-from-stash
-    ```
+```
+git stash branch new-branch-from-stash
+```
 
 
 
