@@ -45,8 +45,15 @@ Note that a conflict should be created. Inspect merge.md and notice that merge '
 ```
 type merge.md
 ```
-The most direct way to resolve the conflict is to edit the file in a text editor.
+Git made a record of changes that should be resolved. You will need to resolve the conflicts in file and commit it to resolve the merge. You resolve the conflicts in a text editor.
 
+If you inspect the .git folder, you will see files that contain information about the merge were created by git.
+
+VS Code (and similar) are aware of merges and will display the conflicting files in Source Control. This is especially helpful when dealing with many changes.
+
+As you resolve conflicts, commit the files and they will be removed as merge conflicts.
+
+Note that it is up to you to decide how to merge when Git cannot automatically merge.
 
 
 
